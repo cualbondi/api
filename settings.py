@@ -217,11 +217,6 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'json'
         },
-#        'file': {
-#            'level': 'DEBUG',
-#            'class': 'logging.FileHandler',
-#            'filename': '/tmp/django.log',
-#        }
     },
     'loggers': {
         'django.request': {
